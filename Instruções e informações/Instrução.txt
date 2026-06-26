@@ -1,0 +1,37 @@
+Trabalho II – Compiladores
+OPÇÃO 3 – Análises de Fluxos
+
+Nome dos casos de teste: 
+input1.txt;
+input2.txt;
+input3.txt;
+input4.txt
+-------------------------------------------------------------------------------------------------------------
+1) (3,0 pontos) Implemente a Análise de Longevidade.
+Para compilar: certifique-se de que você está na pasta ~/Trabalho2/ no seu terminal. Se não estiver, abra a pasta e com o botão direito, clique em abrir no terminal;
+I) No terminal: use o seguinte comando: gcc -o analise_longevidade analise_longevidade.c
+II) Em seguida, use o comando ./analise_longevidade < input2.txt
+
+Pra compilar: gcc -o analise_longevidade analise_longevidade.c
+Pra executar: ./analise_longevidade < input2.txt
+Pra executar: ./analise_longevidade < input3.txt
+
+-------------------------------------------------------------------------------------------------------------
+2)(3,5 pontos) Implemente o algoritmo de fluxo de dados Reaching Definitions
+(definições alcançantes).
+Para compilar: certifique-se de que você está na pasta ~/Trabalho2/ no seu terminal. Se não estiver, abra a pasta e com o botão direito, clique em abrir no terminal;
+I) No terminal, use o seguinte comando: gcc -o reaching_definitions reaching_definitions.c
+II) Em seguida, use o comando: ./reaching_definitions < input4.txt
+
+Pra compilar: gcc -o reaching_definitions reaching_definitions.c
+Pra executar: ./reaching_definitions < input4.txt
+
+-------------------------------------------------------------------------------------------------------------
+3) (3,5 pontos) Implemente o algoritmo de fluxo de dados Available Expressions.
+Para compilar: certifique-se de que você está na pasta ~/Trabalho2/ no seu terminal. Se não estiver, abra a pasta e com o botão direito, clique em abrir no terminal;
+I) No terminal: use o seguinte comando: gcc -o available available.c
+II) Em seguida, use o comando ./available < input1.txt
+
+Pra compilar: gcc -o available available.c
+Pra executar: ./available < input1.txt
+
